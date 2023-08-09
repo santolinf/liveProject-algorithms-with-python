@@ -7,7 +7,11 @@ class BinaryNode:
         self.right_child = None
 
     def __str__(self):
-        return f"{self.value}: {self.left_child.value if self.left_child else 'None'} {self.right_child.value if self.right_child else 'None'}"
+        return " ".join(f"""
+        {self.value}:
+        {self.left_child.value if self.left_child else 'None'}
+        {self.right_child.value if self.right_child else 'None'}
+        """.split())
 
     def add_left(self, child):
         self.left_child = child
