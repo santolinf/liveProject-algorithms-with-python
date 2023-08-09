@@ -1,0 +1,20 @@
+# IntelliJ
+.idea
+*.ipr
+*.iml
+*.iws
+
+# OSX
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# patch
+*.orig
+*.rej
+
+.ipynb_checkpoints
+venv/
+sandbox/
