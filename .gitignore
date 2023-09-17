@@ -15,6 +15,7 @@
 *.orig
 *.rej
 
+__pycache__/
 .ipynb_checkpoints
 venv/
 sandbox/
